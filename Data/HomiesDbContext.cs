@@ -11,9 +11,9 @@ namespace Homies.Data
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            //modelBuilder
-            //    .Entity<Type>()
-            //    .HasData(new Type()
+            modelBuilder
+                .Entity<Type>()
+                .HasData(new Type()
             //    {
             //        Id = 1,
             //        Name = "Animals"
